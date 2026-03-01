@@ -1,7 +1,10 @@
 package main
+
 import "fmt"
 
-func comment() {
+
+func main() {
 	// this is comment
-	fmt.Println("go comment")
+	/* secend method of comment */
+    fmt.Println("comment text !")
 }
