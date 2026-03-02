@@ -15,4 +15,5 @@ func main() {
     if_Else()
     _switch()
     Loop()
+    _Function()
 }
