@@ -14,4 +14,5 @@ func main() {
     math()
     if_Else()
     _switch()
+    Loop()
 }
