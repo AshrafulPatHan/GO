@@ -13,4 +13,5 @@ func main() {
     array()
     math()
     if_Else()
+    _switch()
 }
