@@ -12,4 +12,5 @@ func main() {
     DataType()
     array()
     math()
+    if_Else()
 }
