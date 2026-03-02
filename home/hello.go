@@ -16,4 +16,5 @@ func main() {
     _switch()
     Loop()
     _Function()
+    _Struct()
 }
