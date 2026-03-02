@@ -11,4 +11,5 @@ func main() {
     printVariables()
     DataType()
     array()
+    math()
 }
