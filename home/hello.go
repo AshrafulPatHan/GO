@@ -9,4 +9,5 @@ func main() {
     fmt.Println("Hello, World!")
     Comment()
     printVariables()
+    DataType()
 }
