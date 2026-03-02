@@ -17,4 +17,5 @@ func main() {
     Loop()
     _Function()
     _Struct()
+    _Maps()
 }

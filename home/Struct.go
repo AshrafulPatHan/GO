@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// parameter value
 type Person struct {
   name string
   age int
