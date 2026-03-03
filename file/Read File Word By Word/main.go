@@ -1,7 +1,23 @@
 package main
-import "fmt"
+import (
+   "fmt"
+   "os"
+)
+func main() {
+   file, err := os.Open("filename.txt")
 
-func main(){
-	fmt.Println("Hello file")
+   if err != nil {
+      panic(err)
+   }
+   defer file.Close()
+
+   var word string
+
+   for {
+      _, err := fmt.Fscanf(file, "%s", &word)
+      if err != nil {
+         break
+      }
+      fmt.Println(word)
+   }
 }
-
